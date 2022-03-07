@@ -18,4 +18,11 @@ specificationsRoutes.post("/", (request, response) => {
   return response.status(201).send();
 });
 
+specificationsRoutes.get("/", (request, response) => {
+  const allSpecifications = specificationsRepository.list();
+
+  return response.json(allSpecifications);
+});
+
+
 export { specificationsRoutes }
