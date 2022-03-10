@@ -1,0 +1,11 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "RentCar API Documentation",
+    "description": "API for a rental car service API.",
+    "version": "1.0.0",
+    "contact": {
+      "email": "pallomagualter@gmail.com"
+    }
+  }
+}
